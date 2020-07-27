@@ -1,0 +1,5 @@
+{
+    "prefix": "$",
+    "token": "YOUR_TOKEN",
+    "youtube_api": "YOUTUBE_API_KEY"
+}
