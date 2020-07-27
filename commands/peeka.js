@@ -1,5 +1,3 @@
-const { execute } = require("./ping");
-
 module.exports = {
     name: "peeka",
     description: "Peeka. Peke",
