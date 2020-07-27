@@ -5,7 +5,7 @@ const trumpRandomAPI = 'https://api.whatdoestrumpthink.com/api/v1/quotes/random'
 
 module.exports = {
     name: 'trump',
-    description: 'Whats Orange boy gotta say',
+    description: 'Whats POTUS gotta say',
     execute(message) {
         let args = message.content.trim()
 	let api = trumpRandomAPI
