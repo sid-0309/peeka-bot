@@ -1,6 +1,7 @@
 const { MessageEmbed } = require("discord.js");
 const { play } = require("../include/play");
-const { YOUTUBE_API_KEY, MAX_PLAYLIST_SIZE } = require("../config.json");
+const { MAX_PLAYLIST_SIZE } = require("../config.json");
+const YOUTUBE_API_KEY = process.env.YOUTUBE_API_KEY;
 const YouTubeAPI = require("simple-youtube-api");
 const youtube = new YouTubeAPI(YOUTUBE_API_KEY);
 

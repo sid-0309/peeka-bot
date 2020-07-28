@@ -4,7 +4,8 @@ const { Client, Collection } = require("discord.js");
 const { join } = require("path");
 
 //Config
-const { PREFIX, TOKEN} = require('./config.json');
+const { PREFIX  } = require('./config.json');
+const TOKEN = process.env.BOT_TOKEN
 
 //Setting up client
 const client = new Client({ disableMentions: "everyone" });
