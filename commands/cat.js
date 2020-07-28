@@ -1,6 +1,6 @@
 const fetch = require('node-fetch')
 
-const catAPI = 'https://api.thecatapi.com/v1/images/search'
+const catAPI = 'https://api.thecatapi.com/v1/images/search?api_key=b34a49cd-7313-442a-9c87-6f8bf7fb2f1a'
 
 module.exports = {
     name: 'cat',
