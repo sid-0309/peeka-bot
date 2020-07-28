@@ -9,7 +9,7 @@ module.exports = {
         fetch(catAPI)
 	.then(result => {return result.json()})
 	.then(data => {
-	    const embed = {image: {url: data.url }}
+	    const embed = {image: {url: data[0].url }}
 	    message.channel.send({ embed });
 	}).catch(err => console.error(err));
     }
