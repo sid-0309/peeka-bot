@@ -15,7 +15,7 @@
     "ffmpeg": "0.0.4",
     "fluent-ffmpeg": "^2.1.2",
     "libsodium-wrappers": "^0.7.6",
-    "lyrics-finder": "^19.0.21",
+    "lyrics-finder": "^21.4.0",
     "mathjs": "^6.6.4",
     "node-fetch": "^2.6.0",
     "simple-youtube-api": "^5.1.1",
