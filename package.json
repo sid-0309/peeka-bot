@@ -10,7 +10,7 @@
   "author": "Sarang S",
   "license": "MIT",
   "dependencies": {
-    "@discordjs/opus": "^0.1.0",
+    "@discordjs/opus": "^0.6.0",
     "discord.js": "^12.1.1",
     "ffmpeg": "0.0.4",
     "fluent-ffmpeg": "^2.1.2",
